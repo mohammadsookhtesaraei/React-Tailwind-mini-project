@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@layer components {
+    .list {
+       @apply p-4 text-lg 
+    }
+   
+    .btn {
+       @apply ml-4 bg-blue-400 px-4 py-2 rounded-xl font-bold hover:bg-blue-500
+    }
+   }
